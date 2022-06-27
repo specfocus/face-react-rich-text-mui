@@ -195,7 +195,7 @@ const options: Array<LevelOption | HeadingLevelOption> = [
   },
 ];
 
-const PREFIX = 'RaRichTextInputLevelSelect';
+const PREFIX = 'RichTextInputLevelSelect';
 const classes = {
   list: `${PREFIX}-list`,
   sizeSmall: `${PREFIX}-sizeSmall`,

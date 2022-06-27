@@ -4,7 +4,7 @@
 
 ## Usage
 
-Use it as you would any react-admin inputs:
+Use it as you would any view-focus inputs:
 
 ```jsx
 import { Edit, SimpleForm, TextInput } from '@specfocus/view-focus.mui';

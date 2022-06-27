@@ -72,7 +72,7 @@ export const RichTextInputToolbar = (props: RichTextInputToolbarProps) => {
   );
 };
 
-const PREFIX = 'RaRichTextInputToolbar';
+const PREFIX = 'RichTextInputToolbar';
 const classes = {
   root: `${PREFIX}-root`,
 };

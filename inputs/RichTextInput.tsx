@@ -1,6 +1,6 @@
 import { FormHelperText } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { Labeled, type LabeledProps } from '@specfocus/view-focus.mui/core/Labeled';
+import { Labeled, type LabeledProps } from '@specfocus/view-focus.mui/apps/Labeled';
 import { CommonInputProps } from '@specfocus/view-focus.mui/inputs/CommonInputProps';
 import { InputHelperText } from '@specfocus/view-focus.mui/inputs/InputHelperText';
 import { useResourceContext } from '@specfocus/view-focus/core/useResourceContext';
@@ -16,8 +16,8 @@ import { RichTextInputToolbar } from './RichTextInputToolbar';
 import { TiptapEditorProvider } from './TiptapEditorProvider';
 
 /**
- * A rich text editor for the react-admin that is accessible and supports translations. Based on [Tiptap](https://www.tiptap.dev/).
- * @param props The input props. Accept all common react-admin input props.
+ * A rich text editor for view-focus that is accessible and supports translations. Based on [Tiptap](https://www.tiptap.dev/).
+ * @param props The input props. Accept all common view-focus input props.
  * @param {EditorOptions} props.editorOptions The options to pass to the Tiptap editor.
  * @param {ReactNode} props.toolbar The toolbar containing the editors commands.
  *
@@ -213,7 +213,7 @@ export const DefaultEditorOptions = {
   ],
 };
 
-const PREFIX = 'RaRichTextInput';
+const PREFIX = 'RichTextInput';
 const classes = {
   editorContent: `${PREFIX}-editorContent`,
 };
