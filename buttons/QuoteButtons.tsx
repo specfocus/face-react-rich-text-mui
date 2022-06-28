@@ -1,6 +1,6 @@
 import FormatQuote from '@mui/icons-material/FormatQuote';
 import { ToggleButton, ToggleButtonProps } from '@mui/material';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import { useEffect, useState } from 'react';
 import { useTiptapEditor } from '../inputs/useTiptapEditor';
 

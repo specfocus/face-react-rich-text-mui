@@ -30,7 +30,7 @@
     "@nivo/bar": "^0.76.0",
     "@specfocus/locales": "^0.0.1",
     "@specfocus/spec-focus": "^0.2.0",
-    "@specfocus/view-focus": "^0.0.1",
+    "@specfocus/view-focus": "^0.0.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.3.0",
     "@types/css-mediaquery": "^0.1.1",

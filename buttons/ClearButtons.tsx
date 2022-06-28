@@ -1,6 +1,6 @@
 import FormatClear from '@mui/icons-material/FormatClear';
 import { ToggleButton, ToggleButtonProps } from '@mui/material';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import { useTiptapEditor } from '../inputs/useTiptapEditor';
 
 export const ClearButtons = (props: Omit<ToggleButtonProps, 'value'>) => {

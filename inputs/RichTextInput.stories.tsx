@@ -1,5 +1,5 @@
 import { required } from '@specfocus/view-focus.forms/forms/validate';
-import { I18nProvider } from '@specfocus/view-focus.i18n/i18n/I18nContextProvider';
+import { I18nProvider } from '@specfocus/view-focus.i18n/translations/TranslationContextProvider';
 import { AppContext } from '@specfocus/view-focus.mui/apps/AppContext';
 import { SimpleForm, type SimpleFormProps } from '@specfocus/view-focus.mui/forms/SimpleForm';
 import { RichTextInput } from './RichTextInput';

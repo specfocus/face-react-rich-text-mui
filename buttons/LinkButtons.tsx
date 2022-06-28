@@ -1,6 +1,6 @@
 import InsertLink from '@mui/icons-material/InsertLink';
 import { ToggleButton, ToggleButtonProps } from '@mui/material';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import { useTiptapEditor } from '../inputs/useTiptapEditor';
 import { useEditorSelection } from './useEditorSelection';
 

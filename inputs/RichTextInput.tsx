@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import { Labeled, type LabeledProps } from '@specfocus/view-focus.mui/apps/Labeled';
 import { CommonInputProps } from '@specfocus/view-focus.mui/inputs/CommonInputProps';
 import { InputHelperText } from '@specfocus/view-focus.mui/inputs/InputHelperText';
-import { useResourceContext } from '@specfocus/view-focus/core/useResourceContext';
+import { useResourceContext } from '@specfocus/view-focus/resources/useResourceContext';
 import { useInput } from '@specfocus/view-focus/forms/useInput';
 import Link from '@tiptap/extension-link';
 import TextAlign from '@tiptap/extension-text-align';

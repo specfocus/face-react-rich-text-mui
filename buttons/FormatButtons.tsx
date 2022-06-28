@@ -10,7 +10,7 @@ import {
   ToggleButtonGroup,
   ToggleButtonGroupProps
 } from '@mui/material';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import { Editor } from '@tiptap/react';
 import { useTiptapEditor } from '../inputs/useTiptapEditor';
 

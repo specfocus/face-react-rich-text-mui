@@ -1,7 +1,7 @@
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { List, ListItem, ListItemText, Menu, MenuItem } from '@mui/material';
 import { alpha, styled } from '@mui/material/styles';
-import { useTranslate } from '@specfocus/view-focus.i18n/i18n/useTranslate';
+import { useTranslate } from '@specfocus/view-focus.i18n/translations/useTranslate';
 import clsx from 'clsx';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
