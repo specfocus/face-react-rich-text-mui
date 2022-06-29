@@ -14,10 +14,10 @@ export const ListButtons = (props: ToggleButtonGroupProps) => {
   const editor = useTiptapEditor();
   const translate = useTranslate();
 
-  const bulletListLabel = translate('ra.tiptap.list_bulleted', {
+  const bulletListLabel = translate('tiptap.list_bulleted', {
     _: 'Bulleted list',
   });
-  const numberListLabel = translate('ra.tiptap.list_numbered', {
+  const numberListLabel = translate('tiptap.list_numbered', {
     _: 'Numbered list',
   });
 

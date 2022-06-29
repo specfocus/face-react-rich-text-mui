@@ -7,7 +7,7 @@ export const ClearButtons = (props: Omit<ToggleButtonProps, 'value'>) => {
   const editor = useTiptapEditor();
   const translate = useTranslate();
 
-  const label = translate('ra.tiptap.clear_format', {
+  const label = translate('tiptap.clear_format', {
     _: 'Clear format',
   });
 

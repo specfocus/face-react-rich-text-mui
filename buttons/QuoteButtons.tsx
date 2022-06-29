@@ -9,7 +9,7 @@ export const QuoteButtons = (props: Omit<ToggleButtonProps, 'value'>) => {
   const translate = useTranslate();
   const [isActive, setIsActive] = useState(false);
 
-  const label = translate('ra.tiptap.blockquote', {
+  const label = translate('tiptap.blockquote', {
     _: 'Blockquote',
   });
 

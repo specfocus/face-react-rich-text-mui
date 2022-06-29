@@ -9,7 +9,7 @@ export const LinkButtons = (props: Omit<ToggleButtonProps, 'value'>) => {
   const translate = useTranslate();
   const currentTextSelection = useEditorSelection();
 
-  const label = translate('ra.tiptap.link', {
+  const label = translate('tiptap.link', {
     _: 'Add a link',
   });
 

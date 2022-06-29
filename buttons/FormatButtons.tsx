@@ -19,23 +19,23 @@ export const FormatButtons = (props: ToggleButtonGroupProps) => {
   const translate = useTranslate();
   const [values, setValues] = useState<string[]>([]);
 
-  const boldLabel = translate('ra.tiptap.bold', {
+  const boldLabel = translate('tiptap.bold', {
     _: 'Bold',
   });
 
-  const italicLabel = translate('ra.tiptap.italic', {
+  const italicLabel = translate('tiptap.italic', {
     _: 'Italic',
   });
 
-  const underlineLabel = translate('ra.tiptap.underline', {
+  const underlineLabel = translate('tiptap.underline', {
     _: 'Underline',
   });
 
-  const strikeLabel = translate('ra.tiptap.strike', {
+  const strikeLabel = translate('tiptap.strike', {
     _: 'Strikethrough',
   });
 
-  const codeLabel = translate('ra.tiptap.code', {
+  const codeLabel = translate('tiptap.code', {
     _: 'Code',
   });
 

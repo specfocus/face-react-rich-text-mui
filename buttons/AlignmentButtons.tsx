@@ -17,10 +17,10 @@ export const AlignmentButtons = (props: ToggleButtonGroupProps) => {
   const translate = useTranslate();
   const [value, setValue] = useState<string>('left');
 
-  const leftLabel = translate('ra.tiptap.align_left', { _: 'Align left' });
-  const rightLabel = translate('ra.tiptap.align_right', { _: 'Align right' });
-  const centerLabel = translate('ra.tiptap.align_center', { _: 'Center' });
-  const justifyLabel = translate('ra.tiptap.align_justify', { _: 'Justify' });
+  const leftLabel = translate('tiptap.align_left', { _: 'Align left' });
+  const rightLabel = translate('tiptap.align_right', { _: 'Align right' });
+  const centerLabel = translate('tiptap.align_center', { _: 'Center' });
+  const justifyLabel = translate('tiptap.align_justify', { _: 'Justify' });
 
   useEffect(() => {
     const handleUpdate = () => {

@@ -85,7 +85,7 @@ export const LevelSelect = (props: LevelSelectProps) => {
     <Root>
       <List
         component="nav"
-        aria-label={translate('ra.tiptap.select_level', {
+        aria-label={translate('tiptap.select_level', {
           _: 'Select the level',
         })}
         dense
@@ -96,7 +96,7 @@ export const LevelSelect = (props: LevelSelectProps) => {
           button
           aria-haspopup="true"
           aria-controls="level-menu"
-          aria-label={translate('ra.tiptap.current_level', {
+          aria-label={translate('tiptap.current_level', {
             _: 'Current level',
           })}
           disabled={!editor?.isEditable}
@@ -153,42 +153,42 @@ type HeadingLevelOption = {
 
 const options: Array<LevelOption | HeadingLevelOption> = [
   {
-    label: 'ra.tiptap.paragraph',
+    label: 'tiptap.paragraph',
     defaultLabel: 'Normal',
     value: 'paragraph',
   },
   {
-    label: 'ra.tiptap.heading1',
+    label: 'tiptap.heading1',
     defaultLabel: 'Heading 1',
     value: 'heading',
     level: 1,
   },
   {
-    label: 'ra.tiptap.heading2',
+    label: 'tiptap.heading2',
     defaultLabel: 'Heading 2',
     value: 'heading',
     level: 2,
   },
   {
-    label: 'ra.tiptap.heading3',
+    label: 'tiptap.heading3',
     defaultLabel: 'Heading 3',
     value: 'heading',
     level: 3,
   },
   {
-    label: 'ra.tiptap.heading4',
+    label: 'tiptap.heading4',
     defaultLabel: 'Heading 4',
     value: 'heading',
     level: 4,
   },
   {
-    label: 'ra.tiptap.heading5',
+    label: 'tiptap.heading5',
     defaultLabel: 'Heading 5',
     value: 'heading',
     level: 5,
   },
   {
-    label: 'ra.tiptap.heading6',
+    label: 'tiptap.heading6',
     defaultLabel: 'Heading 6',
     value: 'heading',
     level: 6,
