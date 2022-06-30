@@ -7,14 +7,14 @@ import { RichTextInputToolbar } from './RichTextInputToolbar';
 
 export default { title: 'view-focus.mui.rich-text' };
 
-const i18nProvider: I18nProvider = {
+const translator: I18nProvider = {
   translate: (key: string, options: any) => options?._ ?? key,
   changeLocale: () => Promise.resolve(),
   getLocale: () => 'en',
 };
 
 export const Basic = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm
       defaultValues={{ body: 'Hello World' }}
       onSubmit={() => { }}
@@ -26,7 +26,7 @@ export const Basic = (props: Partial<SimpleFormProps>) => (
 );
 
 export const Disabled = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm
       defaultValues={{ body: 'Hello World' }}
       onSubmit={() => { }}
@@ -38,7 +38,7 @@ export const Disabled = (props: Partial<SimpleFormProps>) => (
 );
 
 export const Small = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm
       defaultValues={{ body: 'Hello World' }}
       onSubmit={() => { }}
@@ -54,7 +54,7 @@ export const Small = (props: Partial<SimpleFormProps>) => (
 );
 
 export const Large = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm
       defaultValues={{ body: 'Hello World' }}
       onSubmit={() => { }}
@@ -70,7 +70,7 @@ export const Large = (props: Partial<SimpleFormProps>) => (
 );
 
 export const FullWidth = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm
       defaultValues={{ body: 'Hello World' }}
       onSubmit={() => { }}
@@ -87,7 +87,7 @@ export const FullWidth = (props: Partial<SimpleFormProps>) => (
 );
 
 export const Validation = (props: Partial<SimpleFormProps>) => (
-  <AppContext i18nProvider={i18nProvider}>
+  <AppContext translator={translator}>
     <SimpleForm onSubmit={() => { }} {...props}>
       <RichTextInput label="Body" source="body" validate={required()} />
     </SimpleForm>
